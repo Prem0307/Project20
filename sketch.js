@@ -9,18 +9,18 @@ var bg,bgImg;
 
 function preload() {
     
-  mouseCheese = loadImage("mouse1.png");
+  mouseCheese = loadImage("jerryOne.png");
 
-  mouseDance = loadAnimation("mouse2.png","mouse3.png");
+  mouseDance = loadAnimation("jerryTwo.png","jerryThree.png");
 
-  mouseCollide = loadImage("mouse4.png",);
+  mouseCollide = loadImage("jerryFour.png",);
 
 
-  catSit = loadImage("cat1.png");
+  catSit = loadImage("tomOne.png");
 
-  catWalk = loadAnimation("cat2.png","cat3.png");
+  catWalk = loadAnimation("tomTwo.png","tomThree.png");
 
-  catCollide = loadImage("cat4.png");
+  catCollide = loadImage("tomFour.png");
 
 
     bgImg = loadImage("garden.png");
